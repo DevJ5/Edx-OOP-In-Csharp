@@ -13,6 +13,7 @@ namespace Mod1_Lab1
             DrinksMachine myMachine = new DrinksMachine(19, "Make-Atoshi", "Model-S");
             Console.WriteLine(myMachine.Age);
             Console.WriteLine(myMachine.Make);
+            myMachine.Model = "the value keyword is in the setter.";
             Console.WriteLine(myMachine.Model);
         }
     }

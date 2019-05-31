@@ -1,0 +1,2 @@
+# Edx-OOP-In-Csharp
+- Encapsulation is including all behaviours and attributes in the class itself. And it also means data hiding, i.e. using private fields and getters/setters as an interface to the outside.

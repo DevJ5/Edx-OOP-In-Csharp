@@ -15,6 +15,9 @@ namespace Mod1_Lab1
             Console.WriteLine(myMachine.Make);
             myMachine.Model = "the value keyword is in the setter.";
             Console.WriteLine(myMachine.Model);
+
+            // Using a static class:
+            Console.WriteLine(Math.Pow(2, 3)); 
         }
     }
 }

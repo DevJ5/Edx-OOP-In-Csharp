@@ -10,8 +10,10 @@ namespace Mod1_Lab1
     {
         static void Main(string[] args)
         {
-            DrinksMachine myMachine = new DrinksMachine(9, "a", "b");
+            DrinksMachine myMachine = new DrinksMachine(19, "Make-Atoshi", "Model-S");
             Console.WriteLine(myMachine.Age);
+            Console.WriteLine(myMachine.Make);
+            Console.WriteLine(myMachine.Model);
         }
     }
 }

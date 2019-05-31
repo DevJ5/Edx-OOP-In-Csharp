@@ -50,7 +50,7 @@ namespace Mod1_Lab1
         // Constructors (overloaded):
         public DrinksMachine(int age)
         {
-            this.Age = age;
+            Age = age;
         }
 
         public DrinksMachine(string make, string model)
@@ -61,9 +61,9 @@ namespace Mod1_Lab1
 
         public DrinksMachine(int age, string make, string model)
         {
-            this.Make = make;
+            Make = make;
             this.Model = model;
-            this.Age = age;
+            Age = age;
         }
     }
 }

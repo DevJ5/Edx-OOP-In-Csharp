@@ -31,7 +31,7 @@ namespace SelfAssesmentLab
         {
             foreach (var student in StudentList)
             {
-                Console.WriteLine($"{student.FirstName} {student.LastName}");
+                Console.WriteLine($"{student.Id}: {student.FirstName} {student.LastName}");
             }
         }
 

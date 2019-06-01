@@ -36,8 +36,8 @@ namespace SelfAssesmentLab
 
             Console.WriteLine($"{ITProgram.Name} - {BachelorsDegree.Name}");
             Console.WriteLine($"In {CsharpCourse.Name} there are currently {CsharpCourse.CountNumberOfStudents()} students enrolled.");
-           
-
+            Console.WriteLine($"Students enrolled: ");
+            CsharpCourse.PrintStudentNames();
         }
     }
 }

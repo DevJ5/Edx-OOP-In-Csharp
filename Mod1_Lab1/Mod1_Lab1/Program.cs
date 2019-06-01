@@ -17,7 +17,14 @@ namespace Mod1_Lab1
             Console.WriteLine(myMachine.Model);
 
             // Using a static class:
-            Console.WriteLine(Math.Pow(2, 3)); 
+            Console.WriteLine(Math.Pow(2, 3));
+
+            // Using var is type inference
+            var myCar = new Car();
+            myCar.Color = "blue";
+            myCar.Year = 2019;
+            myCar.Mileage = 200000;
+            Console.WriteLine($"My car is {myCar.Color} from the year {myCar.Year}, the mileage is {myCar.Mileage}.");
         }
     }
 }

@@ -10,11 +10,17 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
-            Customer customer = new Customer();
+            Customer customerA = new Customer();
+            // Implicit conversion because a customer always has the members of the interface.
+            ILoyaltyCardHolder customerB = customerA;
+            // Explicit conversion with cast, because Customer may include members that are not in the interface.
+            Customer customerC = (Customer)customerB;
+
             try
             {
-                Console.WriteLine(((ILoyaltyCardHolder)customer).AddPoints(20));
-                Console.WriteLine(customer.TotalPoints);
+                Console.WriteLine(((ILoyaltyCardHolder)customerA).AddPoints(20));
+                // This will print 0 points, because it is read only.
+                Console.WriteLine($"{customerA.TotalPoints} points");
             }
             catch(Exception e)
             {

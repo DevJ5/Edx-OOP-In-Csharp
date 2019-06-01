@@ -8,13 +8,15 @@ namespace Interfaces
 {
     class Customer: ILoyaltyCardHolder
     {
-        public int TotalPoints { get; set; }     
+        private int totalPoints;
+        public int TotalPoints { get; }     
 
+        // Explicit interface:
         int ILoyaltyCardHolder.AddPoints(decimal transactionValue)
         {
             int points = Decimal.ToInt32(transactionValue);
-            TotalPoints += points;
-            return TotalPoints;
+            totalPoints += points;
+            return totalPoints;
         }
 
         public void ResetPoints()

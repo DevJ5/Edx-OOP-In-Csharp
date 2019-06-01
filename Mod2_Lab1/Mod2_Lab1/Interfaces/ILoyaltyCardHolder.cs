@@ -8,7 +8,7 @@ namespace Interfaces
 {
     interface ILoyaltyCardHolder
     {
-        int TotalPoints { get; set; }
+        int TotalPoints { get; }
         int AddPoints(decimal points);
         void ResetPoints();
     }

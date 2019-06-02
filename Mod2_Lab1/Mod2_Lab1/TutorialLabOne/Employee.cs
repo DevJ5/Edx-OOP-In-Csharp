@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TutorialLabOne
 {
-    class Employee
+    abstract class Employee
     {
         private string _name;
         private double _baseSalary;
@@ -41,11 +41,6 @@ namespace TutorialLabOne
             return $"{_id} {_name}";
         }
 
-        public virtual string EmployeeStatus()
-        {
-            return $"{ToString()} is in the company's system.";
-        }
-
-
+        public abstract string EmployeeStatus();
     }
 }

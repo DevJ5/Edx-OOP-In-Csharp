@@ -10,18 +10,18 @@ namespace TutorialLabOne
     {
         static void Main(string[] args)
         {
-            Employee employee1 = new Employee("bert", 100000);
+            Employee employee1 = new TechnicalEmployee("bert", 20000);
             Console.WriteLine(employee1.EmployeeStatus());
 
-            TechnicalEmployee techy = new TechnicalEmployee("herman");
+            TechnicalEmployee techy = new TechnicalEmployee("herman", 50000);
             Console.WriteLine(techy.EmployeeStatus());
             Console.WriteLine(techy.GetName());
 
             Console.WriteLine("------------------------------");
 
-            var employee3 = new Employee("Libby", 2000);
+            var employee3 = new BusinessEmployee("Libby");
             // Instantiates TechnicalEmployee Object with name Zaynah called employee2
-            var employee4 = new TechnicalEmployee("Zaynah");
+            var employee4 = new TechnicalEmployee("Zaynah", 10000);
             // Instantiates BusinessEmployee Object with name Winter called employee3
             var employee5 = new BusinessEmployee("Winter");
 

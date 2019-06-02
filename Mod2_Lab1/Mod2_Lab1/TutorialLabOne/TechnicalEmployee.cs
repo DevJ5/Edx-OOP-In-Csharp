@@ -10,7 +10,7 @@ namespace TutorialLabOne
     {
         private int _successfulCheckIns = 5;
 
-        public TechnicalEmployee(string name) : base(name, 75000)
+        public TechnicalEmployee(string name, double baseSalary) : base(name, baseSalary)
         {
            
         }

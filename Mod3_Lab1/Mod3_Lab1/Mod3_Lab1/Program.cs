@@ -13,7 +13,7 @@ namespace Mod3_Lab1
         {
             ManagedWord mw = new ManagedWord();
             mw.Dispose();
-            mw.OpenWordDocument("fasd");
+            mw.OpenWordDocument("testing");
         }
     }
 }

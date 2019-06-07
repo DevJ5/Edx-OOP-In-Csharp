@@ -11,4 +11,4 @@ Dynamic polymorphism is done via:
 - Abstraction is the process of hiding certain information to the user and can be done with abstract classes (which cant be instantiated) and abstract methods (which are not yet implemented, just a signature)
 
 
-_a framework is just a bunch of code that a programmer can call without having to write it explicitly._
+_A framework is just a bunch of code that a programmer can call without having to write it explicitly._ -Me

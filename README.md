@@ -9,6 +9,3 @@ Dynamic polymorphism is done via:
 1) abstract classes with abstract methods that need to be implemented.
 2) abstract classes with virtual methods that can be overridden.
 - Abstraction is the process of hiding certain information to the user and can be done with abstract classes (which cant be instantiated) and abstract methods (which are not yet implemented, just a signature)
-
-
-_A framework is just a bunch of code that a programmer can call without having to write it explicitly._ -Me
